@@ -48,6 +48,10 @@ createApp({
             else{
                 this.activeImg--;
             }
+        },
+
+        clickThumb(index){
+            this.activeImg = index;
         }
 
     }
